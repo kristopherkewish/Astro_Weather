@@ -1,0 +1,14 @@
+:root {
+  --bg-color: #8ECAE6;
+  --accent: #FB8500;
+}
+
+html, body {
+  background-color: var(--bg-color);
+  color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: color 600ms;
+}

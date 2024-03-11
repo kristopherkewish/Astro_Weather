@@ -1,0 +1,31 @@
+.navLink {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    color: white;
+    text-decoration: none;
+    transition: 600ms;
+}
+
+.navLink:hover {
+    filter: grayscale(0%) opacity(1);
+    color: #023047;
+}
+
+.linkText {
+    margin-left: 1rem;
+    font-size: 16px;
+}
+
+.visibleText {
+    display: inline;
+}
+
+.invisibleText {
+    display: none;
+}
+
+.navLink .icon {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}

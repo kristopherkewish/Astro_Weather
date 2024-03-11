@@ -1,8 +1,13 @@
-# React + Vite
+# ASTRO WEATHER
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Vite + React weather app that changes its appearance based on the weather in all the Australian capital cities.
 
-Currently, two official plugins are available:
+## Installation
+Clone the repository, then install dependencies with 'npm install'. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sign up for https://openweathermap.org/ and obtain a free API key.
+
+Add a .env file in the root folder, and add your API key with the following line:
+VITE_WEATHER_API_KEY="YOUR API KEY HERE"
+
+Start the app with 'npm run'.

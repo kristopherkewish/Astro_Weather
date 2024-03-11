@@ -2,10 +2,10 @@ import styles from './WeatherIcon.module.css';
 
 export default function WeatherIcon({category}) {
     const iconURLs = {
-        sunnyIcon: '/src/assets/sunny.png',
-        windyIcon: '/src/assets/windy.png',
-        rainyIcon: '/src/assets/rainy.png',
-        cloudyIcon: '/src/assets/cloudy.png'
+        sunnyIcon: '/sunny.png',
+        windyIcon: '/windy.png',
+        rainyIcon: '/rainy.png',
+        cloudyIcon: '/cloudy.png'
     };
     
     const getWeatherIcon = (weatherCategory) => {

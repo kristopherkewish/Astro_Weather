@@ -27,5 +27,20 @@
 
 .navLink .icon {
     min-width: 2rem;
-    margin: 0 1.5rem;
+}
+
+@media only screen and (max-width: 600px) { 
+    .navLink {
+        justify-content: center;
+    }
+
+    .navLink .icon {
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (min-width: 600px) { 
+    .navLink .icon {
+        margin: 0 1.5rem;
+    }
 }

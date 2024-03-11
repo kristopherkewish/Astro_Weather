@@ -1,5 +1,4 @@
 .info {
-    margin-left: 5rem;
     margin-bottom: 1rem;
 }
 
@@ -25,3 +24,8 @@
     transition: 600ms;
 }
 
+@media only screen and (min-width: 600px) {
+    .info {
+        margin-left: 5rem;
+    }
+}

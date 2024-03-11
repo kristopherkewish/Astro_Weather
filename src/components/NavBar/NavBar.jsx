@@ -7,7 +7,9 @@ export default function NavBar({handleNavClick}) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleHoverChange = () => {
-    setIsHovered(!isHovered);
+    if(!window.matchMedia('(max-width: 767px)').matches) {
+      setIsHovered(!isHovered);
+    }
   };
 
   return (

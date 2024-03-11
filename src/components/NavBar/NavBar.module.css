@@ -2,13 +2,6 @@
     position: fixed;
     background-color: var(--accent);
     transition: 600ms ease;
-    top: 0;
-    width: 5rem;
-    height: 100vh;
-}
-
-.navbar:hover {
-    width: 16rem;
 }
 
 .navbarNav {
@@ -16,7 +9,6 @@
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
@@ -34,4 +26,32 @@
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+
+    .navbarNav {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 600px) { 
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+
+    .navbarNav {
+        flex-direction: column;
+    }
+
+    .navbar:hover {
+        width: 16rem;
+    }
 }

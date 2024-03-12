@@ -12,7 +12,7 @@ export default function Weather({temperature, description, location}) {
                     location={location}
                 />
             </section>
-            <section className={styles.divider}>
+            <section className={`${styles.divider} ${styles.iconDivider}`}>
                 <WeatherIcon 
                     category={description}
                 />

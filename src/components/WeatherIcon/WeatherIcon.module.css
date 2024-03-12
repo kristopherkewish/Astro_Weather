@@ -1,15 +1,27 @@
 #weatherIcon {
+    align-self: center;
+  }
+
+@keyframes throb {
+  from {width: 60%;}
+  to {width: 75%;}
+}
+
+@media only screen and (max-width: 600px) {
+  #weatherIcon {
+    height: 40%;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) { 
+  #weatherIcon {
     width: 60%;
     height: auto;
-    align-self: center;
     animation-name: throb;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
-
-@keyframes throb {
-  from {width: 60%;}
-  to {width: 75%;}
 }
